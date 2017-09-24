@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dongyang.hospitalapp.activity.StartPageActivity">
+
+    <ImageView
+        android:id="@+id/usrIcon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/usericon" />
+
+    <TextView
+        android:id="@+id/usrInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:text=" "
+        android:textAlignment="center"
+        android:textColor="#6a6a6a"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:text="환영합니다."
+        android:textColor="#02bbbd"
+        android:textSize="35dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#02bbbd"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="WORK"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

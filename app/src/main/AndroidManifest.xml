@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dongyang.hospitalapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.dongyang.hospitalapp.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.dongyang.hospitalapp.activity.CallReceiveActivity" />
+        <activity android:name="com.dongyang.hospitalapp.activity.StartPageActivity" />
+        <activity android:name="com.dongyang.hospitalapp.activity.LoginPageActivity" />
+        <activity
+            android:name="com.dongyang.hospitalapp.activity.CallRecordActivity"
+            android:label="@string/title_activity_call_record"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.dongyang.hospitalapp.activity.CallSendActivity"
+            android:label="@string/title_activity_call_send"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.dongyang.hospitalapp.activity.MessageRecordActivity"
+            android:label="@string/title_activity_message_record"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.dongyang.hospitalapp.activity.MessageSendActivity"
+            android:label="@string/title_activity_message_send"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.dongyang.hospitalapp.activity.PatientRecordActivity"
+            android:label="@string/title_activity_patient_record"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.dongyang.hospitalapp.activity.PatientManagerActivity"
+            android:label="@string/title_activity_patient_manager"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

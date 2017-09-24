@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Smart Hospital</string>
+    <string name="title_activity_call_record">CallRecordActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_call_send">CallSendActivity</string>
+    <string name="title_activity_message_record">MessageRecordActivity</string>
+    <string name="title_activity_message_send">MessageSendActivity</string>
+    <string name="title_activity_patient_record">PatientRecordActivity</string>
+    <string name="title_activity_patient_manager">PatientManagerActivity</string>
+</resources>
